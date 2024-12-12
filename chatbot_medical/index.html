@@ -14,14 +14,36 @@
                 <img src="assets/newchatbot.jpg" alt="Chatbot Icon">
                 <h2>Medical Chatbot</h2>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#terms">Terms & Conditions</a></li>
-                    <li><a href="#contact">Contact Us</a></li>
-                </ul>
-            </nav>
-        </aside>
+            <button id="aboutBtn">About</button>
+            <button id="termsBtn">Terms & Conditions</button>
+            <button id="contactBtn">Contact Us</button>
+
+            <!-- About Modal -->
+            <div id="aboutModal" class="modal">
+                <div class="modal-content">
+                    <span class="close" id="closeAbout">&times;</span>
+                    <h2>About Medical Chatbot</h2>
+                    <p>This Medical Chatbot provides information on various diseases, symptoms, and medications. It is designed to assist users but not replace professional medical advice.</p>
+                </div>
+            </div>
+
+            <!-- Terms & Conditions Modal -->
+            <div id="termsModal" class="modal">
+                <div class="modal-content">
+                    <span class="close" id="closeTerms">&times;</span>
+                    <h2>Terms & Conditions</h2>
+                    <p>By using this chatbot, you agree that the information provided is for general purposes only and not a substitute for medical advice.</p>
+                </div>
+            </div>
+
+            <!-- Contact Us Modal -->
+            <div id="contactModal" class="modal">
+                <div class="modal-content">
+                    <span class="close" id="closeContact">&times;</span>
+                    <h2>Contact Us</h2>
+                    <p>Email: support@medicalchatbot.com<br>Phone: +1-234-567-890</p>
+                </div>
+            </div>
 
         <!-- Chat Area -->
         <main class="chat-container">
